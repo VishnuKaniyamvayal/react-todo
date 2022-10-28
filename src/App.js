@@ -1,11 +1,9 @@
 import './App.css';
-import LoginPage from './Pages/LoginPage';
-import Mainpage from './Pages/Mainpage';
-import SignupPage from './Pages/SignupPage';
+import Edit from './components/Edit';
 function App() {
   return (
     <div>
-      <Mainpage/>
+      <Edit/>
     </div>
   );
 }
