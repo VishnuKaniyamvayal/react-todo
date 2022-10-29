@@ -1,9 +1,9 @@
 import './App.css';
-import Edit from './components/Edit';
+import SignupPage from "./Pages/SignupPage"
 function App() {
   return (
     <div>
-      <Edit/>
+      <SignupPage/>
     </div>
   );
 }
