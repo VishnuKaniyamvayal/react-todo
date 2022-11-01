@@ -1,4 +1,4 @@
-// Import the functions you need from the SDKs you need
+import {getFirestore} from "firebase/firestore"
 import { initializeApp } from "firebase/app";
 const firebaseConfig = {
   apiKey: "AIzaSyA1Jt-2zaQ4sGwf3pMPADhWCFIuucT60W0",
@@ -10,6 +10,6 @@ const firebaseConfig = {
   measurementId: "G-4B47G940XE"
 };
 
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
 
+const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app)
